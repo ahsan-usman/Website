@@ -1,0 +1,227 @@
+/*home*/
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.Navbar{
+    height: 80px;
+    background:#005bbb;
+    text-align:center;
+
+}
+.Navbar ul{
+    float: left;
+    margin-left: 50px;
+
+}
+.Navbar ul li{
+    margin: 0px 15px;
+    display: inline-block;
+    line-height: 80px;
+    font-family: "Montserrat",sans-serif;
+    
+}
+.Navbar ul li a{
+    position: relative;
+    color: white;
+    font-size: 18px;
+    padding: 8px 15px;
+}
+.Navbar ul li a:hover
+ {
+    color:#5cd4f0;
+}
+
+
+body{
+    background-color: #fcf6f5ff;
+
+}
+
+.center{
+    padding-top: 50px;
+    padding-left: 50px;
+    margin:20px;
+    text-decoration: none;  
+    font-family: "Montserrat",sans-serif;
+  
+}
+
+h1{
+
+    font-size: 60px;
+    color:#28559A;
+
+}
+h2{
+    padding-top: 40px;
+    letter-spacing: 1px;
+    font-size: 30px;
+    color: #3778c2;
+}
+p{
+    padding-top: 50px;
+    font-size: 20px;
+    color: #222629;
+    line-height: 40px;  
+    letter-spacing: 1px;
+
+}
+
+/*Gallery page*/
+
+*{
+    box-sizing: border-box;
+ 
+}
+table{
+    margin-top: 70 px;
+    position: relative;
+    align-items: center;
+    height: 400px;
+    width: 395px;
+}
+img{
+    height: 300px;
+    width: 375px;
+    padding: 4px;
+
+/* quotations page */
+
+}
+.quotes{
+    padding: 13px 13px;
+    margin: 30px;
+    background-color:#add8e6;
+
+  
+}
+.quotes p {
+    color:#04213b ;
+    font-size: 20px;
+    font-weight: 550;
+
+} 
+q{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+sub{
+    
+    color: #05445e;
+    font-size: 20px;
+}
+.quotes h3{
+    color: #011f4b;
+    font-size: 45px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 30px;
+}
+ 
+/*contact me page*/
+.contactme{
+    margin: 0;
+    padding:0;
+    background-size: cover;  
+  
+
+  }
+  .contact-form{
+    width: 90%;
+    max-width: 600px;
+    background:#5271ff;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+    font-family: "Montserrat",sans-serif;
+  }
+  .contact-form h1{
+    color: #ffe052;
+    margin-top: 5px;
+    font-weight: bold;
+    letter-spacing: 0px;
+  }
+  .txtb{
+    border:1.5px solid #f2f8ff;
+    margin: 9px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+  }
+  .txtb label{
+    display: block;
+    text-align: left;
+    color:#f2f8ff;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  .txtb input,.txtb textarea{
+    width: 100%;
+    color: white;
+    border: none;
+    background:none;
+    outline: none;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  ::placeholder{
+
+    color:#d3dbff;
+  }
+  .btn{
+    display: inline-block;
+    background: #ccd5ff;
+    padding: 16px 0;
+    color:#808080;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+/* projects */
+  
+.previousproject{
+    margin: 0;
+    padding:0;
+    background-size: cover; 
+}
+
+.project{
+    margin: 20px;
+    padding: 10px 60px;
+    font-family: "Montserrat",sans-serif;
+
+   
+}
+
+.project h2{
+    color:#123c69;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.project h3{
+    padding-top: 35px;
+    color:#4056a1;
+    font-size: 20px;
+}
+
+.project p{
+    margin-top: -30px;
+    color:#1d2951;
+}
